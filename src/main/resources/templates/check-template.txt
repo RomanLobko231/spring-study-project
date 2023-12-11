@@ -1,0 +1,6 @@
+Hello [(${name})],
+
+This check of $[(${amount})] is for [(${product})].
+
+Sincerely,
+Your Company

@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/blog
+
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: false
+    show-sql: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: roomen817@gmail.com
+    password: pijeyovtehypdyvb
+    protocol: smtp
+    tls: true
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com

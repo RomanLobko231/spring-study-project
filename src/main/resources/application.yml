@@ -1,0 +1,16 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enabled: true
+  application:
+    name: spring-blog
+    description: A blog built with Spring Framework
+    author: Roma
+
+spring:
+  profiles:
+    active: dev
